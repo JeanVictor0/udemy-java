@@ -5,10 +5,10 @@ public class Data {
 	byte mes;
 	int ano;
 	
-	Data(byte diaInicial,byte mesInformado,int anoInformado){
-		dia = diaInicial;
-		mes = mesInformado;
-		ano = anoInformado;
+	public Data(byte dia,byte mes,int ano){
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
 	}
 	
 	Data(){
@@ -17,7 +17,7 @@ public class Data {
 		ano = 1970;
 	}
 	
-	String obterDataFormatada() {
+	public String obterDataFormatada() {
 		return String.format("%d/%d/%d", dia,mes,ano); 
 	}
 }
