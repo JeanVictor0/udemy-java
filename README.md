@@ -23,6 +23,5 @@ por emprego.
 Sim, fazer bootcamp e um projeto pessoal. Estudar design
 partern, clean code, clean architeture, SOLID e agile.
 
-```
-Campo-minado - [Link do projeto](https://github.com/JeanVictor0/campo-minado)
-```
+#### Campo-minado - [Link do projeto](https://github.com/JeanVictor0/campo-minado)
+
