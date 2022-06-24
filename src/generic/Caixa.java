@@ -1,6 +1,6 @@
 package generic;
 
-public class Caixa {
+public class Caixa <Object> {
   private Object coisa;
 
    public void guardar(Object coisa){

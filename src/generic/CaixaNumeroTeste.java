@@ -1,7 +1,18 @@
 package generic;
 
+import generic.CaixaTeste.main;
+
 public class CaixaNumeroTeste {
   // CaixaNumero<String> caixa = new CaixaNumero();
-  CaixaNumero<Double> caixa = new CaixaNumero<>();
-  caixa.guardar(123);
+
+
+
+
+
+
+  public static void main(String[] args) {
+    CaixaNumero<Double> caixa = new CaixaNumero<>();
+    caixa.guardar();
+  }
+
 }

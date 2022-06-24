@@ -5,6 +5,14 @@ public class Jogador {
 	int x;
 	int y;
 	
+	Jogador(){
+		this(0,0);
+	}
+	Jogador(int x, int y){
+		this.x = x;
+		this.y = y;
+	}
+	
 	boolean andar;
 	
 	public boolean atacar(Jogador oponente) {

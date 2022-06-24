@@ -1,7 +1,10 @@
  package generic;
 
+import java.util.List;
+
 public class ListaUtil {
-  public static Object getUltimo1(List<Object> lista) {
+  
+  public static Object getUltimo1(List <Object> lista) {
     return lista.get(lista.size() - 1);
   }
 
@@ -9,8 +12,8 @@ public class ListaUtil {
     return lista.get(lista.size() - 1);
   }
 
-  public static <a,b,c> c getUltimo2(List<a,b,c> lista){
-    c teste = null;
-    return c;
-  }
+//  public static <A,B,C> C getUltimo2(List<A,B,C> lista){
+//   
+//    return lista.get();
+//  }
 }

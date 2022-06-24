@@ -9,6 +9,7 @@ public class Compra {
 	final public Cliente cliente;
 	
 	Compra(Cliente cliente){
+		this.cliente = null;
 		
 	}
 	

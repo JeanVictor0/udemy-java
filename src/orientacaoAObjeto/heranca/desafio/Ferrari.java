@@ -2,7 +2,15 @@ package orientacaoAObjeto.heranca.desafio;
 
 import java.util.Arrays;
 
-public class Ferrari extends Carro{
+public class Ferrari extends Carro implements Esportivo {//,luxo
+	
+	public void ligarTurbo() {
+		
+	}
+	
+	public void desligarTurbo() {
+		
+	}
 
 	public boolean acelerar() {
 		Boolean [] acelerando = new Boolean[3];

@@ -8,7 +8,7 @@ public class CompraTeste {
 		Compra c1 = new Compra();
 		c1.cliente = "Marcelo";
 		
-		c1.itens.adicionarItem("Caneta",20,7.45);
+//		c1.itens.adicionarItem("Caneta",20,7.45);
 		
 		System.out.println(c1.obterValorTotal());
 	}
