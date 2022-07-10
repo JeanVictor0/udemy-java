@@ -15,7 +15,7 @@ public class NovaPessoa {
 //		String sql = String.format("INSERT INTO pessoas (nome) VALUES ( ? )", nome);
 		String sql = "INSERT INTO pessoas (nome) VALUES ( ? )";
 		
-		Connection conexao = FabricaConexa	o.getConexao();
+		Connection conexao = FabricaConexao.getConexao();
 		PreparedStatement stmt = conexao.prepareStatement(sql);
 		stmt.setString(1, nome);
 //		stmt.setInt(2, 100);
